@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="./wkaktime.js"/>
     <style type="text/tailwindcss">
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
     </style>
@@ -56,9 +57,20 @@
 
                 <div class="flex flex-col-reverse lg:flex-row items-center lg:justify-between px-8 py-12 w-full">
                     <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 items-center px-8 py-12">
-                        <img src="/images/css.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
-                        <img src="/images/html.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
-                        <img src="images/js.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
+
+                        <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 items-center px-8 py-12">
+                            <img src="/images/css-logo.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
+                            <div id="cssHours" class="font-bold text-gray-500 text-5x1 lg:text-text-botton sm:space-y-0"></div>
+                        </div>
+                        <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 items-center px-8 py-12">
+                            <img src="/images/html-logo.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
+                            <div id="htmlHours" class="font-bold text-gray-500 text-5x1 lg:text-text-botton sm:space-y-5"  ></div>
+                        </div>
+                        <div class="flex flex-col lg:flex-row space-y-12 lg:space-y-0 items-center px-8 py-12">
+                            <img src="images/js-logo.svg" class="w-[12em] h-[16em] flex-lgpx-row"/>
+                            <div id="jsHours" class="font-bold text-gray-500 text-5x1 lg:text-text-botton sm:space-y-0"></div>
+                        </div>
+
                     </div>
 
                     <div>
